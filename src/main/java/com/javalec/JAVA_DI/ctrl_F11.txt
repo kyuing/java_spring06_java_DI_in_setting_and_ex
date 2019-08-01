@@ -1,0 +1,25 @@
+INFO : org.springframework.context.annotation.ClassPathBeanDefinitionScanner - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+INFO : org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2957fcb0: startup date [Thu Aug 01 22:28:57 BST 2019]; root of context hierarchy
+INFO : org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3fb6a447: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,applicationConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,student2,myFamily,student1]; root of factory hierarchy
+Student 1__________________________________________
+Name: Kyu
+Age: 20
+Hobbies: [JAVA Programming, Sleeping]
+Height: 177.0
+Weight: 77.0
+
+Student 2__________________________________________
+Name: Rey
+Age: 25
+Hobbies: [Flicking Facebook, being an attention whore]
+Height: 197.0
+Weight: 45.0
+
+Family__________________________________________
+Father's name: Tesco
+Mather's name: Lidl
+Sister's name: Lidlia
+Brother's name: Tesco Junior
+INFO : org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2957fcb0: startup date [Thu Aug 01 22:28:57 BST 2019]; root of context hierarchy
+INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3fb6a447: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,applicationConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,student2,myFamily,student1]; root of factory hierarchy
